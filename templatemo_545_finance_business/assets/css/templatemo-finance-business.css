@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #a4c639;
+	background-color: #c46c1c;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -45,8 +45,8 @@ a.filled-button {
 }
 
 a.filled-button:hover {
-	background-color: #fff;
-	color: #a4c639;
+	background-color: #747372;
+	color: whitesmoke;
 }
 
 a.border-button {
@@ -174,7 +174,7 @@ a.border-button:hover {
 /* Sub Header Style */
 
 .sub-header {
-	background-color: #a4c639;
+	background-color:#b36c1c;
 	height: 46px;
 	line-height: 46px;
 }
@@ -267,9 +267,9 @@ header .navbar {
 .background-header .navbar-nav .show>.nav-link {
 	color: #a4c639!important;
 }
-.navbar .navbar-brand {
+.navbar .navbar-brand img{
 	float: 	left;
-	margin-top: 12px;
+	margin-top: -10px; /*Edited the logo*/
 	outline: none;
 }
 .navbar .navbar-brand h2 {
@@ -309,8 +309,8 @@ header .navbar {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #a4c639;
-	border-bottom: 3px solid #a4c639;
+	color: grey;  /* editted */
+	border-bottom: 3px solid grey;  /* editted */
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -451,11 +451,11 @@ ul.slick-dots {
 
 .Modern-Slider .item h6 {
   margin-bottom: 15px;
-  font-size: 22px;
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color:#a4c639;
+  color:#c46c1c;
   animation:fadeOutRight 1s both;
 }
 
