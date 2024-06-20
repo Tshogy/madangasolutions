@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #c46c1c;
+	background-color: #b36c1c;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -52,7 +52,7 @@ a.filled-button:hover {
 a.border-button {
 	background-color: transparent;
 	color: #fff;
-	border: 2px solid #c46c1c;
+	border: 2px solid #b36c1c;
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -458,7 +458,7 @@ ul.slick-dots {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color:#c46c1c;
+  color:#b36c1c;
   animation:fadeOutRight 1s both;
 }
 
@@ -525,7 +525,7 @@ ul.slick-dots {
 /* Request Form */
 
 .request-form {
-	background-color: #c46c1c;
+	background-color: #b36c1c;
 	padding: 40px 0px;
 	color: #fff;
 }
