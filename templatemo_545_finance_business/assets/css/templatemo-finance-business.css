@@ -47,6 +47,8 @@ a.filled-button {
 a.filled-button:hover {
 	background-color: #747372;
 	color: whitesmoke;
+	box-shadow: 5px 5px grey;
+
 }
 
 a.border-button {
@@ -73,6 +75,7 @@ a.border-button img{
 .section-heading {
 	text-align: center;
 	margin-bottom: 80px;
+	margin-top: 5px;
 }
 
 .section-heading h2 {
@@ -83,7 +86,7 @@ a.border-button img{
 
 .section-heading em {
 	font-style: normal;
-	color: #a4c639;
+	color: #b36c1c;
 }
 
 .section-heading span {
@@ -97,7 +100,7 @@ a.border-button img{
 
 #preloader {
   overflow: hidden;
-  background: #a4c639;
+  background: #b36c1c;
   left: 0;
   right: 0;
   top: 0;
@@ -258,7 +261,7 @@ header .navbar {
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
-	color: #a4c639!important;
+	color: #b36c1c!important;
 }
 .background-header .navbar-nav a.nav-link {
 	color: #1e1e1e!important;
@@ -268,7 +271,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.active,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #a4c639!important;
+	color: #b36c1c!important;
 }
 .navbar .navbar-brand img{
 	float: 	left;
@@ -330,7 +333,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #a4c639;
+	color: #b36c1c;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -572,6 +575,7 @@ ul.slick-dots {
 	letter-spacing: 0.25px;
 	margin-bottom: 15px;
 }
+
 
 .service-item .down-content p {
 	margin-bottom: 20px;
