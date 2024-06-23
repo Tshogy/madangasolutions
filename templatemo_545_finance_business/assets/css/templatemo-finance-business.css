@@ -47,6 +47,8 @@ a.filled-button {
 a.filled-button:hover {
 	background-color: #747372;
 	color: whitesmoke;
+	box-shadow: 5px 5px grey;
+
 }
 
 a.border-button {
@@ -73,6 +75,7 @@ a.border-button img{
 .section-heading {
 	text-align: center;
 	margin-bottom: 80px;
+	margin-top: 5px;
 }
 
 .section-heading h2 {
@@ -572,6 +575,7 @@ ul.slick-dots {
 	letter-spacing: 0.25px;
 	margin-bottom: 15px;
 }
+
 
 .service-item .down-content p {
 	margin-bottom: 20px;
