@@ -562,6 +562,14 @@ ul.slick-dots {
 .service-item img {
 	width: 100%;
 	overflow: hidden;
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.service-item img:hover{
+	-webkit-filter: blur(0);
+	filter: blur(1);
 }
 
 .service-item .down-content {
@@ -657,6 +665,10 @@ ul.slick-dots {
 	width: 100%;
 	overflow: hidden;
 }
+.more-info .left-image img:hover{
+	--webkit-transform: scale(1.3);
+	transform: scale(1.1);
+}
 
 .more-info .more-info-content {
 	background-color: #f7f7f7;
@@ -673,11 +685,11 @@ ul.slick-dots {
 }
 
 .more-info .right-content {
-	padding: 45px 45px 45px 30px;
+	padding: 45px 45px  30px;
 	
 }
 
-.more-info .right-content span {
+.more-info .right-content  span {
 	text-transform: uppercase;
 	font-size: 15px;
 	color: #666;
@@ -701,8 +713,17 @@ ul.slick-dots {
 	margin-bottom: 200px;
 	overflow: hidden;
    text-overflow: ellipsis;
+	text-decoration: none;
+	color: black;
+	text-shadow: -.25px -.25px 0 transparent, 
+				  .25px .25px transparent;
 	
 }
+.more-info .right-content p:hover{
+	text-shadow: -0.25px -0.25px 0 #b36c1c, .30px .30px #b36c1c;
+
+}
+
 
 
 /* Testimonials Style */
@@ -1285,10 +1306,17 @@ footer .contact-form button.filled-button:hover {
 		padding: 80px 0px 20px 0px;
 	}
 	footer .footer-item {
-		border-bottom: 1px solid #343434;
+		/* border-bottom: 1px solid #343434; */
 		margin-bottom: 30px;
 		padding-bottom: 30px;
 	}
+	
+	.footer-item img {
+            margin-top: 30px; /* Adjust top margin */
+            margin-left: -30px; /* Adjust left margin */
+
+	}
+	
 	footer .last-item {
 		border-bottom: none;
 	}
