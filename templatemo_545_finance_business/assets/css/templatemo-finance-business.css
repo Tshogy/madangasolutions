@@ -650,7 +650,7 @@ ul.slick-dots {
 /* More Info */
 
 .more-info {
-	margin-top: 140px;
+	margin-top: 120px;
 }
 
 .more-info .left-image img {
@@ -669,10 +669,12 @@ ul.slick-dots {
 .about-info .right-content {
 	padding: 0px!important;
 	margin-right: 30px;
+	
 }
 
 .more-info .right-content {
 	padding: 45px 45px 45px 30px;
+	
 }
 
 .more-info .right-content span {
@@ -680,14 +682,14 @@ ul.slick-dots {
 	font-size: 15px;
 	color: #666;
 	letter-spacing: 1px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	display: block;
 }
 
 .more-info .right-content h2 {
 	font-size: 36px;
 	font-weight: 600;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
 
 .more-info .right-content em {
@@ -696,7 +698,10 @@ ul.slick-dots {
 }
 
 .more-info .right-content p {
-	margin-bottom: 30px;
+	margin-bottom: 200px;
+	overflow: hidden;
+   text-overflow: ellipsis;
+	
 }
 
 
