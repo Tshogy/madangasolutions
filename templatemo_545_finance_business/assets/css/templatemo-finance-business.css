@@ -788,7 +788,8 @@ ul.slick-dots {
 }
 
 .callback-form {
-	margin-top: 140px;
+	margin-top: 120px;
+	margin-bottom: 140px;
 }
 
 .callback-form .contact-form {
@@ -917,13 +918,25 @@ ul.slick-dots {
 	margin: auto;
 }
 
+@media (max-width: 768px) {
+	#map iframe{
+		width:370px;
+	}
+	}
+@media ( min-width:1280){
+    #map iframe{
+		width:100px;
+	}
+}
+
+
 
 
 /* Footer Style */
 
 footer {
 	background-color: #232323;
-	padding: 80px 0px;
+	padding: 60px 0px;
 	color: #fff;
 }
 
@@ -1154,6 +1167,7 @@ footer .contact-form button.filled-button:hover {
 
 .single-services {
 	margin-top: 140px;
+	margin-bottom:140px;
 }
 
 #tabs ul {
